@@ -3,4 +3,13 @@
         Codeial / Profile Page
     </h1>
 
+    <p>
+        Name: <%= user.name %>
+    </p>
+    <p>
+        Email: <%= user.email %>
+    </p>
    
+<form action="/user/log-out" method="post">
+    <input type="submit" value="Sign Out">
+</form>
