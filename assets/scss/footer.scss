@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    justify-content: flex-start;
+    background-color: grey;
+    color: white;
+    ul{
+        list-style: none;
+        margin-left: -24px;
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

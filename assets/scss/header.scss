@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    // height: 18vh;
+    ul{
+        list-style: none;
+        display: flex;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        li{
+            margin-right: 10px;
+            a{
+                text-decoration: none;
+            }
+        }
+
+        
+    }
+
+}
