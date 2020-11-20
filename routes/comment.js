@@ -11,4 +11,6 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 router.post('/create',passport.checkAuthentication,urlencodedParser,commentsController.create);
 
+router.get('/destroy/:id',passport.checkAuthentication,commentsController.destroy)
+
 module.exports = router;
