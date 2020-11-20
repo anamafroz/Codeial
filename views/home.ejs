@@ -19,3 +19,14 @@
     </div>
 
  </section>
+
+ <section id="user-friends">
+    <h3>Friends</h3>
+    <% for(u of all_users){ %>
+     
+        <p>
+            <a href="/user/profile/<%= u.id %>"><%= u.name %></a>
+        </p>
+        
+    <% } %>
+ </section>
